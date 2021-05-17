@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Srayoshi's Restaurant</title>
+
+  <!-- google font cdn link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- favicon link -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- aos css link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+
+<body>
+  <!-- header section starts -->
+  <header>
+    <a href="#home" class="logo"><img src="images/logo.png" alt="logo-image"></a>
+
+    <i id="menu-bar" class="fas fa-hamburger"></i>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home" class="active">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#menu">menu</a></li>
+        <li><a href="#popular">popular</a></li>
+        <li><a href="#gallery">gallery</a></li>
+        <li><a href="#order">order</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- header section ends -->
+
+  <!-- home section starts -->
+
+  <section class="home" id="home">
+    <div class="content" data-aos="fade-right">
+      <h3>We believe good food offer great smile</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, ad, aspernatur! Nisi quaerat voluptatem eum nesciunt impedit! Nostrum, eum accusantium.</p>
+      <a href="#"><button type="button" class="btn">get started</button></a>
+    </div>
+
+    <div class="image" data-aos="fade-up">
+      <img src="images/home-img.png" alt="Home Image">
+
+    </div>
+
+  </section>
+
+  <!-- home section ends -->
+
+  <!-- about section starts -->
+
+  <section class="about" id="about">
+    <div class="image" data-aos="fade-right"></div>
+    <div class="content" data-aos="fade-left">
+      <h3>A Word About Us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non rerum dolorum soluta dolor provident aspernatur asperiores itaque animi saepe, perferendis cumque voluptatem, sed esse quidem necessitatibus quam! Iure, numquam!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, deserunt, voluptatem. Possimus voluptas consectetur voluptate placeat, voluptatem ullam non maiores.</p>
+      <a href="#"><button type="button" class="btn">Learn More</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- about section ends -->
+
+  <!-- menu section starts -->
+  <section class="menu" id="menu">
+    <h1 class="heading">Our Delicious <span>Menu</span></h1>
+    <ul class="list" data-aos="fade-down">
+      <li class="btn active" data-src="images/menu1.jpg" data-target= "#Breakfast">Breakfast</li>
+      <li class="btn" data-src="images/menu2.jpg" data-target= "#Lunch">Lunch</li>
+      <li class="btn" data-src="images/menu3.jpg" data-target= "#Dinner">Dinner</li>
+      <li class="btn" data-src="images/menu4.jpg" data-target= "#Dessert">Dessert</li>
+    </ul>
+
+    <div class="row" data-aos="fade-right">
+
+      <div class="image" data-aos="fade-left">
+        <img src="images/menu1.jpg" id="menu-img" alt="">
+      </div>
+
+      <div class="content active" id="Breakfast">
+
+        <div class="info">
+          <h3><span>01.</span> Egg Look</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>02.</span> HamSand</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>03.</span> TotalSalad</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>04.</span>Hell soup</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+
+      </div>
+
+
+      <div class="content" id="Lunch">
+
+        <div class="info">
+          <h3><span>01.</span> TokyOky</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>02.</span> Chicken Berry</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>03.</span>Mud Rice</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>04.</span>Beef Base</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+
+      </div>
+
+
+      <div class="content" id="Dinner">
+
+        <div class="info">
+          <h3><span>01.</span> Masala Masala</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>02.</span> HeckShell</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>03.</span> HotSpice</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>04.</span>RedNagara</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+
+      </div>
+
+      <div class="content" id="Dessert">
+
+        <div class="info">
+          <h3><span>01.</span> Love Island</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>02.</span> Hot Shake</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>03.</span> Fluffy Pudding</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+        <div class="info">
+          <h3><span>04.</span>Berry Perry</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, qui.</p>
+        </div>
+
+      </div>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="menu-btn">
+      <a href="#"><button type="button" class="btn">View Full Menu</button></a>
+    </div>
+
+
+  </section>
+  <!-- menu section ends -->
+
+  <!-- popular section starts -->
+
+  <section class="popular" id="popular">
+    <h1 class="heading">Our <span>Popular</span> Food</h1>
+
+    <div class="box-container">
+
+      <div class="box" data-aos="fade-right">
+        <img src="images/Byriani.jpg" alt="">
+        <h3>Chicken Byriani</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$08.00</div>
+        <a href="#"><button type="button" class="btn">Add to Cart</button></a>
+      </div>
+
+      <div class="box" data-aos="fade-left">
+        <img src="images/macaron.jpg" alt="">
+        <h3>Sweetie Macaron</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$08.00</div>
+        <a href="#"><button type="button" class="btn">Add to Cart</button></a>
+      </div>
+
+      <div class="box" data-aos="fade-right">
+        <img src="images/cake.jpg" alt="">
+        <h3>Caramel Creamy Pie</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$25.00</div>
+        <a href="#"><button type="button" class="btn">Add to Cart</button></a>
+      </div>
+
+      <div class="box" data-aos="fade-left">
+        <img src="images/chowmin.jpg" alt="">
+        <h3>Mixed Chowmin</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$10.00</div>
+        <a href="#"><button type="button" class="btn">Add to Cart</button></a>
+      </div>
+
+      <div class="box" data-aos="fade-right">
+        <img src="images/egg.jpg" alt="">
+        <h3>Egg Plate</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$06.00</div>
+        <a href="#"><button type="button" class="btn">Add to Cart</button></a>
+      </div>
+
+      <div class="box" data-aos="fade-left">
+        <img src="images/pasta.jpg" alt="">
+        <h3>Maltase Pasta</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$10.00</div>
+        <a href="#"><button type="button" class="btn">Add to Cart</button></a>
+      </div>
+
+      <div class="box" data-aos="fade-right">
+        <img src="images/burger.jpg" alt="">
+        <h3>Biggie Burger</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$15.00</div>
+        <a href="#"><button type="button" class="btn">Add to Cart</button></a>
+      </div>
+
+      <div class="box" data-aos="fade-left">
+        <img src="images/cappuccino.jpg" alt="">
+        <h3>Love Cappuccino</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$20.00</div>
+        <a href="#"><button type="button" class="btn">Add to Cart</button></a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- popular section ends -->
+
+  <!-- gallery section starts -->
+
+  <section class="gallery" id="gallery">
+
+    <h1 class="heading">Our Food <span>Gallery</span></h1>
+
+    <div class="box-container">
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product1.jpg" alt="">
+        <h3>Letica Lettuce</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product2.jpg" alt="">
+        <h3>Mixed Fruite</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product3.jpg" alt="">
+        <h3>Veggie Sand</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product4.jpg" alt="">
+        <h3>Sliced Chicken</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product5.jpg" alt="">
+        <h3>Hot Pudding</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product6.jpg" alt="">
+        <h3>Garbage Fish</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product7.jpg" alt="">
+        <h3>Couple Shake</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product8.jpg" alt="">
+        <h3>Red Shushi</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product9.jpg" alt="">
+        <h3>Dead Ice</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product10.jpg" alt="">
+        <h3>Stick veg</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product11.jpg" alt="">
+        <h3>Twin Cups</h3>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+        <img src="images/product12.jpg" alt="">
+        <h3>Curly Noddles</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- gallery section ends -->
+
+  <!-- order section starts -->
+
+  <section class="order" id="order">
+    <h1 class="heading">Make An <span>Order</span></h1>
+
+    <div class="row" data-aos="fade-right">
+      <form class="" action="index.html" method="post">
+        <input type="text" name="yourName" class="box" placeholder="Your Name">
+        <input type="email" name="email" class="box" placeholder="Your Email">
+        <input type="password" name="password" class="box" placeholder="Password">
+        <input type="number" name="number" class="box" placeholder="Contact Number">
+        <textarea name="address" rows="10" cols="30" class="box address" placeholder="Your Address"></textarea>
+        <input type="submit" name="submit" value="Order Now" class="btn">
+      </form>
+
+      <div class="image" data-aos="fade-left">
+        <img src="images/order.jpg" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- order section ends -->
+
+  <!-- footer section starts -->
+
+  <footer class="footer">
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt"></i>Florida, USA</p>
+        <p><i class="fas fa-envelope mail"></i>srayoshi160@yahoo.com</p>
+        <p><i class="fas fa-phone"></i>+123-456-7890</p>
+        <p><i class="fas fa-phone"></i>+904-776-7896</p>
+      </div>
+
+      <div class="box">
+        <h3>Branch Location</h3>
+        <a href="#">USA</a>
+        <a href="#">Bangladesh</a>
+        <a href="#">India</a>
+        <a href="#">Australia</a>
+        <a href="#">New Zeland</a>
+        <a href="#">France</a>
+      </div>
+
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#popular">Popular</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#order">Order</a>
+      </div>
+
+      <div class="box">
+        <h3>Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+        <a href="#"><i class="fab fa-instagram-square"></i>Instagram</a>
+        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+        <a href="#"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+      </div>
+
+    </div>
+
+    <h1 class="credit">created by<a href="#"> Srayoshi Ghosh</a> all rights reserved.</h1>
+
+  </footer>
+  <!-- footer section ends -->
+
+  <!-- aos js cdn link -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- initialinzing aos -->
+  <script>
+    AOS.init({
+      delay: 100,
+      duration: 1000,
+    });
+  </script>
+
+
+
+
+
+
+
+  <!-- jQuery cdn link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- custom js file link -->
+  <script src="index.js" charset="utf-8"></script>
+
+
+
+</body>
+
+</html>
